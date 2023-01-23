@@ -17,3 +17,5 @@ tiktok clone lecture
 ![ch4_5](./doc/img/ch4_5.png)
 ### 6. Email Screen
 ![ch4_6](./doc/img/ch4_6.png)
+### 7. Password Screen
+![ch4_7](./doc/img/ch4_6.png)
