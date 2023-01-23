@@ -3,11 +3,13 @@
 tiktok clone lecture
 
 ## Authentication
-### 1. Sign Up Screen
+### 0. Sign Up Screen
 ![ch4_0](./doc/img/ch4_0.png)
-### 2. Login Screen
+### 1. Login Screen
 ![ch4_1](./doc/img/ch4_1.png)
-### 3. AuthButton
+### 2. AuthButton
 ![ch4_2](./doc/img/ch4_2.png)
-### 4. Username Screen
+### 3. Sign Up Form
 ![ch4_3](./doc/img/ch4_3.png)
+### 4. Username Screen
+![ch4_4](./doc/img/ch4_4.png)
