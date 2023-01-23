@@ -58,6 +58,7 @@ class SignUpScreen extends StatelessWidget {
               const AuthButton(
                 icon: FaIcon(FontAwesomeIcons.apple),
                 text: "Continue with Apple",
+                onTapFunc: null,
               ),
             ],
           ),
