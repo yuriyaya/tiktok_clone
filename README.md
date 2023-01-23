@@ -15,3 +15,5 @@ tiktok clone lecture
 ![ch4_4](./doc/img/ch4_4.png)
 ### 5. FormButton
 ![ch4_5](./doc/img/ch4_5.png)
+### 6. Email Screen
+![ch4_6](./doc/img/ch4_6.png)
