@@ -19,3 +19,5 @@ tiktok clone lecture
 ![ch4_6](./doc/img/ch4_6.png)
 ### 7. Password Screen
 ![ch4_7](./doc/img/ch4_7.png)
+### 8. Birthday Screen
+![ch4_8](./doc/img/ch4_8.png)
