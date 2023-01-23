@@ -9,3 +9,5 @@ tiktok clone lecture
 ![ch4_1](./doc/img/ch4_1.png)
 ### 3. AuthButton
 ![ch4_2](./doc/img/ch4_2.png)
+### 4. Username Screen
+![ch4_3](./doc/img/ch4_3.png)

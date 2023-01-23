@@ -6,7 +6,14 @@ import '../../../constants/sizes.dart';
 class AuthButton extends StatelessWidget {
   final String text;
   final FaIcon icon;
-  const AuthButton({super.key, required this.text, required this.icon});
+  final Function(BuildContext)? onTapFunc;
+
+  const AuthButton({
+    super.key,
+    required this.text,
+    required this.icon,
+    this.onTapFunc,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -28,12 +35,15 @@ class AuthButton extends StatelessWidget {
               alignment: Alignment.centerLeft,
               child: icon,
             ),
-            Text(
-              text,
-              textAlign: TextAlign.center,
-              style: const TextStyle(
-                fontSize: Sizes.size16,
-                fontWeight: FontWeight.w600,
+            GestureDetector(
+              onTap: () => onTapFunc!(context),
+              child: Text(
+                text,
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  fontSize: Sizes.size16,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
             ),
           ],
