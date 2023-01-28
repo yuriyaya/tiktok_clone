@@ -11,3 +11,6 @@ tiktok clone lecture
 
 ### 3. Tutorial Screen
 ![ch5_3](./doc/img/ch5_3.png)
+
+### 4. AnimatedCrossFade
+![ch5_4](./doc/img/ch5_4.png)
