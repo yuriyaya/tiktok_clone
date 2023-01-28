@@ -3,6 +3,7 @@ import 'package:tiktok_clone/features/authentication/widgets/form_button.dart';
 
 import '../../constants/gaps.dart';
 import '../../constants/sizes.dart';
+import '../onboarding/interests_screen.dart';
 
 class LoginFormScreen extends StatefulWidget {
   const LoginFormScreen({super.key});
@@ -21,6 +22,11 @@ class _LoginFormScreenState extends State<LoginFormScreen> {
       if (_formKey.currentState!.validate()) {
         _formKey.currentState!.save();
         print(formData);
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (context) => const InterestsScreen(),
+          ),
+        );
       }
     }
   }
@@ -66,7 +72,9 @@ class _LoginFormScreenState extends State<LoginFormScreen> {
                   ),
                   cursorColor: Theme.of(context).primaryColor,
                   validator: (value) {
-                    // return "Please input right email address";
+                    if (value != null && value.isEmpty) {
+                      return "Please write your email";
+                    }
                     return null;
                   },
                   onSaved: (newValue) {
@@ -92,7 +100,6 @@ class _LoginFormScreenState extends State<LoginFormScreen> {
                   ),
                   cursorColor: Theme.of(context).primaryColor,
                   validator: (value) {
-                    // return "wrong password";
                     return null;
                   },
                   onSaved: (newValue) {
