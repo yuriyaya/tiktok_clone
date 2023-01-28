@@ -9,3 +9,5 @@ tiktok clone lecture
 ### 2. Scroll Animation
 ![ch5_2](./doc/img/ch5_2.png)
 
+### 3. Tutorial Screen
+![ch5_3](./doc/img/ch5_3.png)
