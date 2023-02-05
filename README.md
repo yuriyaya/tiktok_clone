@@ -17,3 +17,5 @@ tiktok clone lecture
 ![ch6_3](./doc/img/ch6_3.png)
 ### 4. CupertinoTapBar
 ![ch6_4](./doc/img/ch6_4.png)
+### 5. Custom NavigationBar
+![ch6_5](./doc/img/ch6_5.png)
