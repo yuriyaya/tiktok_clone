@@ -11,3 +11,5 @@ tiktok clone lecture
 ## Tab Navigation
 ### 1. pushAndRemoveUntil
 ![ch6_1](./doc/img/ch6_1.png)
+### 2. BottomNavigationBar
+![ch6_2](./doc/img/ch6_2.png)
