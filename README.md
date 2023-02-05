@@ -8,6 +8,6 @@ tiktok clone lecture
 [4. AUTHENTICATION](https://github.com/yuriyaya/tiktok_clone/tree/ch4)
 
 [5. ONBOARDING](https://github.com/yuriyaya/tiktok_clone/tree/ch5)
-## Onboarding
+## Tab Navigation
 ### 1. pushAndRemoveUntil
 ![ch6_1](./doc/img/ch6_1.png)
