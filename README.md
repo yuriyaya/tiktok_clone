@@ -23,3 +23,5 @@ tiktok clone lecture
 ![ch6_6](./doc/img/ch6_6.gif)
 ### 7. Stateful Navigation part Two
 ![ch6_7](./doc/img/ch6_7.gif)
+### 8. Post Video Button
+![ch6_8](./doc/img/ch6_8.gif)
