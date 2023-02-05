@@ -19,3 +19,5 @@ tiktok clone lecture
 ![ch6_4](./doc/img/ch6_4.png)
 ### 5. Custom NavigationBar
 ![ch6_5](./doc/img/ch6_5.png)
+### 6. Stateful Navigation part One
+![ch6_6](./doc/img/ch6_6.gif)
