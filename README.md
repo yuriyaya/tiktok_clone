@@ -13,3 +13,5 @@ tiktok clone lecture
 ![ch6_1](./doc/img/ch6_1.png)
 ### 2. BottomNavigationBar
 ![ch6_2](./doc/img/ch6_2.png)
+### 3. NavigationBar
+![ch6_3](./doc/img/ch6_3.png)
