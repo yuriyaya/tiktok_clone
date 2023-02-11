@@ -15,3 +15,6 @@ tiktok clone lecture
 ![ch7_1](./doc/img/ch7_1.gif)
 * PageView
 * PageView.builder
+### 2. PageViewController
+![ch7_2](./doc/img/ch7_2.gif)
+* PageViewController
