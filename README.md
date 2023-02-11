@@ -18,3 +18,10 @@ tiktok clone lecture
 ### 2. PageViewController
 ![ch7_2](./doc/img/ch7_2.gif)
 * PageViewController
+### 3. Video Player
+![ch7_3](./doc/img/ch7_3.gif)
+* pub.dev: video_player
+  * how to play video, how to detect end of video
+  * send function to anoter widget, use that function inside of stateful widget
+* define assets in pubspec.yaml
+* Stack / Positioned.fill
