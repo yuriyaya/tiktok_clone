@@ -8,20 +8,10 @@ tiktok clone lecture
 [4. AUTHENTICATION](https://github.com/yuriyaya/tiktok_clone/tree/ch4)
 
 [5. ONBOARDING](https://github.com/yuriyaya/tiktok_clone/tree/ch5)
-## Tab Navigation
-### 1. pushAndRemoveUntil
-![ch6_1](./doc/img/ch6_1.png)
-### 2. BottomNavigationBar
-![ch6_2](./doc/img/ch6_2.png)
-### 3. NavigationBar
-![ch6_3](./doc/img/ch6_3.png)
-### 4. CupertinoTapBar
-![ch6_4](./doc/img/ch6_4.png)
-### 5. Custom NavigationBar
-![ch6_5](./doc/img/ch6_5.png)
-### 6. Stateful Navigation part One
-![ch6_6](./doc/img/ch6_6.gif)
-### 7. Stateful Navigation part Two
-![ch6_7](./doc/img/ch6_7.gif)
-### 8. Post Video Button
-![ch6_8](./doc/img/ch6_8.gif)
+
+[6. Tab Navigation](https://github.com/yuriyaya/tiktok_clone/tree/ch6)
+## Video Timeline
+### 1. Infinite Scrolling
+![ch7_1](./doc/img/ch7_1.gif)
+* PageView
+* PageView.builder
