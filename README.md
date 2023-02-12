@@ -25,3 +25,9 @@ tiktok clone lecture
   * send function to anoter widget, use that function inside of stateful widget
 * define assets in pubspec.yaml
 * Stack / Positioned.fill
+### 4. Visibility Detector
+![ch7_4](./doc/img/ch7_4.gif)
+* pub.dev: visibility_detector
+  * detect widget visible completely. prohibit video play during page transition
+* Stack / Positioned.fill / IgnorePointer
+  
