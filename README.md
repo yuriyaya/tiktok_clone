@@ -39,3 +39,6 @@ result same as before :)
 ### 7. SingleTickerProviderStateMixin
 result same as before :)
 * SingleTickerProviderStateMixin
+### 8. Video UI
+![ch7_8](./doc/img/ch7_8.png)
+* Positioned / CircleAvatar
