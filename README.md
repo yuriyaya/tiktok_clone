@@ -33,3 +33,6 @@ tiktok clone lecture
 ### 5. Animation Controller
 ![ch7_5](./doc/img/ch7_5.gif)
 * AnimationController / Transform.scale
+### 6. Animation Builder
+result same as before :)
+* AnimationBuilder
