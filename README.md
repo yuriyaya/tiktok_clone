@@ -30,4 +30,6 @@ tiktok clone lecture
 * pub.dev: visibility_detector
   * detect widget visible completely. prohibit video play during page transition
 * Stack / Positioned.fill / IgnorePointer
-  
+### 5. Animation Controller
+![ch7_5](./doc/img/ch7_5.gif)
+* AnimationController / Transform.scale
