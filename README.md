@@ -36,3 +36,6 @@ tiktok clone lecture
 ### 6. Animation Builder
 result same as before :)
 * AnimationBuilder
+### 7. SingleTickerProviderStateMixin
+result same as before :)
+* SingleTickerProviderStateMixin
