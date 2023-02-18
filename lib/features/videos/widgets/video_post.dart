@@ -5,6 +5,7 @@ import 'package:video_player/video_player.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 
 import '../../../constants/sizes.dart';
+import 'video_comments.dart';
 import 'video_icon_buttion.dart';
 
 class VideoPost extends StatefulWidget {
@@ -68,13 +69,13 @@ class _VideoPostState extends State<VideoPost>
 
   void _onVisibilityChanged(VisibilityInfo info) {
     if (info.visibleFraction == 1) {
-      if (!_videoPlayerController.value.isPlaying) {
+      if (!_isPaused && !_videoPlayerController.value.isPlaying) {
         _videoPlayerController.play();
       }
     }
   }
 
-  void _onVideoPlayTap() {
+  void _onTooglePause() {
     if (_videoPlayerController.value.isPlaying) {
       _videoPlayerController.pause();
       _animationController.reverse();
@@ -85,6 +86,20 @@ class _VideoPostState extends State<VideoPost>
     setState(() {
       _isPaused = !_isPaused;
     });
+  }
+
+  void _onCommentsTap(BuildContext context) async {
+    if (_videoPlayerController.value.isPlaying) {
+      _onTooglePause();
+    }
+
+    await showModalBottomSheet(
+      context: context,
+      builder: (context) => const VideoComments(),
+      backgroundColor: Colors.transparent,
+    );
+
+    _onTooglePause();
   }
 
   @override
@@ -103,7 +118,7 @@ class _VideoPostState extends State<VideoPost>
           ),
           Positioned.fill(
             child: GestureDetector(
-              onTap: _onVideoPlayTap,
+              onTap: _onTooglePause,
             ),
           ),
           Positioned.fill(
@@ -175,8 +190,8 @@ class _VideoPostState extends State<VideoPost>
             bottom: 20,
             right: 10,
             child: Column(
-              children: const [
-                CircleAvatar(
+              children: [
+                const CircleAvatar(
                   radius: 25,
                   backgroundColor: Colors.black,
                   foregroundColor: Colors.white,
@@ -185,17 +200,20 @@ class _VideoPostState extends State<VideoPost>
                   child: Text("yu"),
                 ),
                 Gaps.v32,
-                VideoIconButton(
+                const VideoIconButton(
                   icon: FontAwesomeIcons.solidHeart,
                   text: "2.9M",
                 ),
                 Gaps.v32,
-                VideoIconButton(
-                  icon: FontAwesomeIcons.solidComment,
-                  text: "33K",
+                GestureDetector(
+                  onTap: () => _onCommentsTap(context),
+                  child: const VideoIconButton(
+                    icon: FontAwesomeIcons.solidComment,
+                    text: "33K",
+                  ),
                 ),
                 Gaps.v32,
-                VideoIconButton(
+                const VideoIconButton(
                   icon: FontAwesomeIcons.share,
                   text: "Share",
                 ),
