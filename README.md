@@ -19,4 +19,8 @@ tiktok clone lecture
 
 ### 2. Comments
 ![ch8_2](./doc/img/ch8_2.png)
+
+### 3. Add Comment
+![ch8_3](./doc/img/ch8_3.png)
+* MediaQuery.of(context).size.width,
 * 
