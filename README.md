@@ -16,3 +16,7 @@ tiktok clone lecture
 ### 1. showModalBottomSheet
 ![ch8_1](./doc/img/ch8_1.png)
 * showModalBottomSheet
+
+### 2. Comments
+![ch8_2](./doc/img/ch8_2.png)
+* 
