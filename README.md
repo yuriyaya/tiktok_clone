@@ -23,4 +23,4 @@ tiktok clone lecture
 ### 3. Add Comment
 ![ch8_3](./doc/img/ch8_3.png)
 * MediaQuery.of(context).size.width,
-* 
+* TextField
