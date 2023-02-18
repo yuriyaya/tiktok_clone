@@ -24,3 +24,7 @@ tiktok clone lecture
 ![ch8_3](./doc/img/ch8_3.png)
 * MediaQuery.of(context).size.width,
 * TextField
+
+### 4. Text Input Actions
+![ch8_4](./doc/img/ch8_4.png)
+* TextField - InputDecoration
