@@ -14,5 +14,5 @@ tiktok clone lecture
 [7. Video Timelien](https://github.com/yuriyaya/tiktok_clone/tree/ch7)
 ## Comments Section
 ### 1. showModalBottomSheet
-![ch8_1](./doc/img/ch8_1.gif)
+![ch8_1](./doc/img/ch8_1.png)
 * showModalBottomSheet
