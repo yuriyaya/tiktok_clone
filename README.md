@@ -28,3 +28,8 @@ tiktok clone lecture
 ### 4. Text Input Actions
 ![ch8_4](./doc/img/ch8_4.png)
 * TextField - InputDecoration
+
+
+### 5. Conclusion
+
+* ScrollBar, ScrollController
