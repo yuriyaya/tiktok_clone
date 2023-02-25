@@ -18,3 +18,6 @@ tiktok clone lecture
 ### 1. introduction
 ![ch9_1](./doc/img/ch9_1.png)
 
+### 2. TabBar
+![ch9_2](./doc/img/ch9_2.png)
+* TabBar - TabBarView (splash)
