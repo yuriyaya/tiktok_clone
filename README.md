@@ -25,3 +25,9 @@ tiktok clone lecture
 ### 3. GridView
 ![ch9_3](./doc/img/ch9_3.png)
 * GridView - SliverGridDelegateWithFixedCrossAxisCount
+
+### 4. Grid Item
+![ch9_4](./doc/img/ch9_4.png)
+* FadeInImage.assetNetwork
+* DefaultTextStyle
+* 
