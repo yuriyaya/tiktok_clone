@@ -21,3 +21,7 @@ tiktok clone lecture
 ### 2. TabBar
 ![ch9_2](./doc/img/ch9_2.png)
 * TabBar - TabBarView (splash)
+
+### 3. GridView
+![ch9_3](./doc/img/ch9_3.png)
+* GridView - SliverGridDelegateWithFixedCrossAxisCount
