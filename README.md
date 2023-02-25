@@ -30,4 +30,7 @@ tiktok clone lecture
 ![ch9_4](./doc/img/ch9_4.png)
 * FadeInImage.assetNetwork
 * DefaultTextStyle
-* 
+
+### 5. CupertinoSearchTextField
+![ch9_5](./doc/img/ch9_5.png)
+* CupertinoSearchTextField
