@@ -11,25 +11,10 @@ tiktok clone lecture
 
 [6. Tab Navigation](https://github.com/yuriyaya/tiktok_clone/tree/ch6)
 
-[7. Video Timelien](https://github.com/yuriyaya/tiktok_clone/tree/ch7)
-## Comments Section
-### 1. showModalBottomSheet
-![ch8_1](./doc/img/ch8_1.png)
-* showModalBottomSheet
+[7. Video Timeline](https://github.com/yuriyaya/tiktok_clone/tree/ch7)
 
-### 2. Comments
-![ch8_2](./doc/img/ch8_2.png)
+[8. Comments Section](https://github.com/yuriyaya/tiktok_clone/tree/ch8)
+## Discover
+### 1. introduction
+![ch9_1](./doc/img/ch9_1.png)
 
-### 3. Add Comment
-![ch8_3](./doc/img/ch8_3.png)
-* MediaQuery.of(context).size.width,
-* TextField
-
-### 4. Text Input Actions
-![ch8_4](./doc/img/ch8_4.png)
-* TextField - InputDecoration
-
-
-### 5. Conclusion
-
-* ScrollBar, ScrollController
