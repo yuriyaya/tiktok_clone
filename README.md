@@ -14,23 +14,9 @@ tiktok clone lecture
 [7. Video Timeline](https://github.com/yuriyaya/tiktok_clone/tree/ch7)
 
 [8. Comments Section](https://github.com/yuriyaya/tiktok_clone/tree/ch8)
-## Discover
-### 1. introduction
-![ch9_1](./doc/img/ch9_1.png)
 
-### 2. TabBar
-![ch9_2](./doc/img/ch9_2.png)
-* TabBar - TabBarView (splash)
-
-### 3. GridView
-![ch9_3](./doc/img/ch9_3.png)
-* GridView - SliverGridDelegateWithFixedCrossAxisCount
-
-### 4. Grid Item
-![ch9_4](./doc/img/ch9_4.png)
-* FadeInImage.assetNetwork
-* DefaultTextStyle
-
-### 5. CupertinoSearchTextField
-![ch9_5](./doc/img/ch9_5.png)
-* CupertinoSearchTextField
+[9. Discover](https://github.com/yuriyaya/tiktok_clone/tree/ch9)
+## Inbox
+### 1. ListTile
+![ch10_1](./doc/img/ch10_1.png)
+* ListTile
