@@ -20,3 +20,7 @@ tiktok clone lecture
 ### 1. ListTile
 ![ch10_1](./doc/img/ch10_1.png)
 * ListTile
+
+### 2. RichText
+![ch10_2](./doc/img/ch10_2.png)
+* RichText
