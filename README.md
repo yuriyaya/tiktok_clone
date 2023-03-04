@@ -24,3 +24,11 @@ tiktok clone lecture
 ### 2. RichText
 ![ch10_2](./doc/img/ch10_2.png)
 * RichText
+
+### 3. Dismissible
+![ch10_3](./doc/img/ch10_3.png)
+* Dismissible
+
+### 4. onDismissed
+![ch10_4](./doc/img/ch10_4.png)
+* Dismissible - onDissmissed function

@@ -4,36 +4,50 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../../constants/gaps.dart';
 import '../../constants/sizes.dart';
 
-class ActivityScreen extends StatelessWidget {
+class ActivityScreen extends StatefulWidget {
   const ActivityScreen({super.key});
+
+  @override
+  State<ActivityScreen> createState() => _ActivityScreenState();
+}
+
+class _ActivityScreenState extends State<ActivityScreen> {
+  final List<String> _notifications = List.generate(20, (index) => "${index}h");
+
+  void _onDismissed(String notification) {
+    _notifications.remove(notification);
+    setState(() {});
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text("All activity"),
+      appBar: AppBar(
+        title: const Text("All activity"),
+      ),
+      body: ListView(
+        padding: const EdgeInsets.symmetric(
+          vertical: 0,
+          horizontal: 0,
         ),
-        body: ListView(
-          padding: const EdgeInsets.symmetric(
-            vertical: 0,
-            horizontal: 0,
-          ),
-          children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(
-                horizontal: Sizes.size12,
-              ),
-              child: Text(
-                "New",
-                style: TextStyle(
-                  fontSize: Sizes.size14,
-                  color: Colors.grey.shade500,
-                ),
+        children: [
+          Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: Sizes.size12,
+            ),
+            child: Text(
+              "New",
+              style: TextStyle(
+                fontSize: Sizes.size14,
+                color: Colors.grey.shade500,
               ),
             ),
-            Gaps.v14,
+          ),
+          Gaps.v14,
+          for (var notification in _notifications)
             Dismissible(
-              key: const Key("x"),
+              key: Key(notification),
+              onDismissed: (direction) => _onDismissed(notification),
               background: Container(
                 alignment: Alignment.centerLeft,
                 color: Colors.green,
@@ -63,6 +77,7 @@ class ActivityScreen extends StatelessWidget {
                 ),
               ),
               child: ListTile(
+                minVerticalPadding: Sizes.size16,
                 leading: Container(
                   width: Sizes.size52,
                   decoration: BoxDecoration(
@@ -81,23 +96,23 @@ class ActivityScreen extends StatelessWidget {
                   ),
                 ),
                 title: RichText(
-                  text: const TextSpan(
+                  text: TextSpan(
                     text: "Account updates: ",
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontWeight: FontWeight.w600,
                       color: Colors.black,
                       fontSize: Sizes.size16,
                     ),
                     children: [
-                      TextSpan(
+                      const TextSpan(
                         text: "Upload longer videos ",
                         style: TextStyle(
                           fontWeight: FontWeight.normal,
                         ),
                       ),
                       TextSpan(
-                        text: "1h",
-                        style: TextStyle(
+                        text: notification,
+                        style: const TextStyle(
                           fontWeight: FontWeight.normal,
                           color: Colors.grey,
                         ),
@@ -112,7 +127,8 @@ class ActivityScreen extends StatelessWidget {
                 ),
               ),
             ),
-          ],
-        ));
+        ],
+      ),
+    );
   }
 }
