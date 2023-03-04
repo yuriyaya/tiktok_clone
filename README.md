@@ -32,3 +32,8 @@ tiktok clone lecture
 ### 4. onDismissed
 ![ch10_4](./doc/img/ch10_4.png)
 * Dismissible - onDissmissed function
+
+### 5. RotationTransition
+![ch10_5](./doc/img/ch10_5.png)
+* AnimationController
+* RotationTransition
