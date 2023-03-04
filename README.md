@@ -41,3 +41,7 @@ tiktok clone lecture
 ### 6. SlideTransition
 ![ch10_6](./doc/img/ch10_6.png)
 * SlideTransition
+
+### 7. AnimatedModalBarrier
+![ch10_7](./doc/img/ch10_7.png)
+* AnimatedModalBarrier
