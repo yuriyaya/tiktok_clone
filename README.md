@@ -37,3 +37,7 @@ tiktok clone lecture
 ![ch10_5](./doc/img/ch10_5.png)
 * AnimationController
 * RotationTransition
+
+### 6. SlideTransition
+![ch10_6](./doc/img/ch10_6.png)
+* SlideTransition
