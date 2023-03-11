@@ -31,3 +31,7 @@ tiktok clone lecture
 ### 3. AnimatedList part2
 ![ch11_3](./doc/img/ch11_3.gif)
 * AnimatedList
+
+### 1. Chat detail
+![ch11_4](./doc/img/ch11_4.png)
+
