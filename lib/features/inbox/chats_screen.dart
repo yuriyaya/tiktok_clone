@@ -11,6 +11,14 @@ class ChatsScreen extends StatefulWidget {
 }
 
 class _ChatsScreenState extends State<ChatsScreen> {
+  final GlobalKey<AnimatedListState> _key = GlobalKey<AnimatedListState>();
+
+  void _addItem() {
+    if (_key.currentState != null) {
+      _key.currentState!.insertItem(0);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,45 +27,54 @@ class _ChatsScreenState extends State<ChatsScreen> {
         elevation: 1,
         actions: [
           IconButton(
-            onPressed: () {},
+            onPressed: _addItem,
             icon: const FaIcon(
               FontAwesomeIcons.plus,
             ),
           )
         ],
       ),
-      body: ListView(
+      body: AnimatedList(
+        key: _key,
         padding: const EdgeInsets.symmetric(
           vertical: Sizes.size10,
         ),
-        children: [
-          ListTile(
-            leading: const CircleAvatar(
-              radius: 30,
-              child: Text("Yuls"),
-            ),
-            title: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                const Text(
-                  "yuriya",
-                  style: TextStyle(
-                    fontWeight: FontWeight.w600,
-                  ),
+        itemBuilder:
+            (BuildContext context, int index, Animation<double> animation) {
+          return FadeTransition(
+            key: UniqueKey(),
+            opacity: animation,
+            child: SizeTransition(
+              sizeFactor: animation,
+              child: ListTile(
+                leading: const CircleAvatar(
+                  radius: 30,
+                  child: Text("Yuls"),
                 ),
-                Text(
-                  "2:16 PM",
-                  style: TextStyle(
-                    color: Colors.grey.shade500,
-                    fontSize: Sizes.size12,
-                  ),
+                title: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    const Text(
+                      "yuriya",
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    Text(
+                      "2:16 PM",
+                      style: TextStyle(
+                        color: Colors.grey.shade500,
+                        fontSize: Sizes.size12,
+                      ),
+                    ),
+                  ],
                 ),
-              ],
+                subtitle: const Text("last message in chat"),
+              ),
             ),
-            subtitle: const Text("last message in chat"),
-          )
-        ],
+          );
+        },
       ),
     );
   }

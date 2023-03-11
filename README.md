@@ -22,3 +22,9 @@ tiktok clone lecture
 ### 1. Direct Messages
 ![ch11_1](./doc/img/ch11_1.png)
 * ListTile
+
+### 2. AnimatedList
+![ch11_2](./doc/img/ch11_2.png)
+* AnimatedList
+* AnimatedList - FadeTransition/SizeTransition
+
