@@ -28,3 +28,6 @@ tiktok clone lecture
 * AnimatedList
 * AnimatedList - FadeTransition/SizeTransition
 
+### 3. AnimatedList part2
+![ch11_3](./doc/img/ch11_3.gif)
+* AnimatedList
